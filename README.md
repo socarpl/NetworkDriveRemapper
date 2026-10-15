@@ -15,6 +15,27 @@ Install the **Desktop Runtime**, rather than only the general .NET runtime, from
 - Extract the entire ZIP into a folder and run `NetworkDriveRemapper.exe`. Keep the other files beside it.
 - Run normally from your desktop account so Explorer and the app see the same drive mappings.
 
+## Automatic GitHub releases
+
+Commit and push changes to GitHub to run [Build release ZIPs](.github/workflows/release.yml).
+It runs on every branch push, builds each new commit (including multiple commits in one push),
+runs the regression checks, and publishes `NetworkDriveRemapper.zip` on the repository's
+[Releases page](https://github.com/socarpl/NetworkDriveRemapper/releases).
+Local commits start building once they are pushed. The ZIP contains the compiled application,
+and requires the .NET 8 Desktop Runtime (x64) described above.
+
+Only the **three newest successful automatic releases** are retained: current, previous, and
+previous-1. After a new ZIP is uploaded successfully, older automatic releases, their ZIPs,
+and their `build-<commit SHA>` tags are deleted. Failed builds/uploads preserve the previous
+successful downloads. Manual releases and other tags are outside this automatic retention policy.
+Git commits and source history remain available.
+
+Pushes are queued and processed one at a time to keep publishing and cleanup consistent.
+The first push of a new branch builds the new commits supplied by GitHub, without rebuilding
+all earlier repository history. Repeated pushes of a retained commit reuse its release.
+You can also select **Actions > Build release ZIPs > Run workflow** to build the selected branch tip.
+GitHub Actions must be enabled; the workflow uses the built-in `GITHUB_TOKEN`, with no extra secret.
+
 ## Features and defaults
 
 The executable and main window use the network-drive application icon in

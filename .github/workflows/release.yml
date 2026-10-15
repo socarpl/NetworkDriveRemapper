@@ -1,0 +1,41 @@
+name: Build release ZIPs
+
+on:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Serialize publication and retention across branches without dropping queued pushes.
+concurrency:
+  group: release-zips
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  release:
+    if: github.event.deleted != true
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check release automation
+        run: node .github/scripts/release.test.cjs
+
+      - name: Install build SDK and Windows Desktop test runtime
+        uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+          dotnet-version: '8.0.x'
+
+      - name: Build, test, publish, and keep three releases
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const release = require('./.github/scripts/release.cjs');
+            await release.run({ github, context, core, exec });
