@@ -1,0 +1,214 @@
+﻿{
+    "formatVersion":  1,
+    "application":  "NetworkDriveRemapper",
+    "sourceCommit":  "4cad088acd05d4b2206042c7ee7b526868f3d6c2",
+    "hashAlgorithm":  "SHA-256",
+    "manifestExcludedFromItself":  true,
+    "files":  [
+                  {
+                      "path":  ".gitattributes",
+                      "bytes":  167,
+                      "sha256":  "617DC46A0724E4ED9C99FC797E7EC55411EA90956248E3DFB936C45FB167F961"
+                  },
+                  {
+                      "path":  "ACCEPTANCE.md",
+                      "bytes":  7310,
+                      "sha256":  "95E63B618180C152EEC03C40606EA5C16584E85D1B664EE4566C91A79FDA4E10"
+                  },
+                  {
+                      "path":  "ASSETS.md",
+                      "bytes":  2504,
+                      "sha256":  "348C0C4A2267349A0244CFA873053E0454861B45C1F995CB30310EE6D07C21B4"
+                  },
+                  {
+                      "path":  "assets/app-icon/NetworkDriveRemapper.ico",
+                      "bytes":  108047,
+                      "sha256":  "36318EC9C5FFF277FBE40D0C86545A065F34DA3DF755D906644FE9509293C6B2"
+                  },
+                  {
+                      "path":  "assets/app-icon/NetworkDriveRemapper.png",
+                      "bytes":  955304,
+                      "sha256":  "E2FCFEEA00218E80DBECDB374E081E379988F905AC2558DB59DF921B09EB9134"
+                  },
+                  {
+                      "path":  "assets/app-icon/README.md",
+                      "bytes":  1690,
+                      "sha256":  "BC912FBDFFEC7CEA7A118A5A4360F508442B3CBC538F5A5C32B2A9607A1AC7B4"
+                  },
+                  {
+                      "path":  "assets/icon_edit2.png",
+                      "bytes":  1446,
+                      "sha256":  "4C84488807C58E1E726F9746D5A2EA1F35CB06A228892A6B8AED7C1DA920A7FD"
+                  },
+                  {
+                      "path":  "assets/icon_open.png",
+                      "bytes":  1051,
+                      "sha256":  "4E03899AFAC649438F26C37FC61CD384244B572EC281D075CF56B93C213E9927"
+                  },
+                  {
+                      "path":  "assets/icon_refresh.png",
+                      "bytes":  5744,
+                      "sha256":  "B7AACF62D7C57F46A0A7D8F8802C7A74184951F51D723E4E83831A6C2B89ABA7"
+                  },
+                  {
+                      "path":  "assets/icon_remove.png",
+                      "bytes":  1501,
+                      "sha256":  "DB1521B2124D3B3F7AAFA7A161377DF3C5735482E85E85F67769643E4A4EFEB0"
+                  },
+                  {
+                      "path":  "BEHAVIOR.md",
+                      "bytes":  7329,
+                      "sha256":  "16969C0F8197F3202F96CF5438FFD6356C1512465BEE73367E416322E4D02A66"
+                  },
+                  {
+                      "path":  "BUILD.md",
+                      "bytes":  4592,
+                      "sha256":  "B9D082533F9BDDD6A087B8F2B5CB10619A130074DA8AC9302E6B9D3E6531F71C"
+                  },
+                  {
+                      "path":  "DECISIONS.md",
+                      "bytes":  4825,
+                      "sha256":  "78BF464CAAB86FF0DD3CD7A228EB572D77C324407CAFAFFF68EE2BD0EFCB27A9"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  1387,
+                      "sha256":  "2E9841BFF09C9D7FBC6038C4DE2C7803B4FB9C25140CE1C93E43683B9D2AF025"
+                  },
+                  {
+                      "path":  "REBUILD_PROMPT.md",
+                      "bytes":  2861,
+                      "sha256":  "C922C072DAE2023C55125053479B03AC3A2C259A6E72CD55E384DEE72C114C6E"
+                  },
+                  {
+                      "path":  "reference/acceptance-test-index.json",
+                      "bytes":  4338,
+                      "sha256":  "154156E1DC80FAD0AF195EFFAAD57B0DB34FCA5935F21D47CCBF9DEC7F336BAB"
+                  },
+                  {
+                      "path":  "reference/APP-README.md",
+                      "bytes":  19670,
+                      "sha256":  "E898F2799DE9990D6FC0A86DBDD3B0BE052A20619E3034557A51B07B521AD625"
+                  },
+                  {
+                      "path":  "reference/BASELINE.json",
+                      "bytes":  473,
+                      "sha256":  "FB1074B5654860CD8B744614144C0D86BDDFCA20F4D114C612DB7D4C9383E7CF"
+                  },
+                  {
+                      "path":  "reference/DEVELOPMENT.md",
+                      "bytes":  42678,
+                      "sha256":  "BFD9F5DEE745B548580875898E7FCBF9A71ECE1B478BD1CA8E20226A4B363CE4"
+                  },
+                  {
+                      "path":  "reference/Source-baseline.zip",
+                      "bytes":  1042480,
+                      "sha256":  "E15DB9D2AD713CB2DCE291C883332ED5BA62A909E781DFF87FC82CA38D1D295D"
+                  },
+                  {
+                      "path":  "reference/tests/NetworkDriveRemapper.Tests/FakeNetworkDriveSystem.cs",
+                      "bytes":  6203,
+                      "sha256":  "15F88B0DD9B4989BB4722903E21DAA02010D29FFD3591496B75408519D174607"
+                  },
+                  {
+                      "path":  "reference/tests/NetworkDriveRemapper.Tests/NetworkDriveRemapper.Tests.csproj",
+                      "bytes":  451,
+                      "sha256":  "A7B5DBC9169DAAE26D4DC168B4CDDFDAB91C025F35C6925FA181FC2BDD4B0CBD"
+                  },
+                  {
+                      "path":  "reference/tests/NetworkDriveRemapper.Tests/Program.cs",
+                      "bytes":  72909,
+                      "sha256":  "4741B5AF15322C1F05FE3D4BF00B7DFD217F3ED9ECA38607937963F194072711"
+                  },
+                  {
+                      "path":  "screenshots/credential-conflict.png",
+                      "bytes":  37055,
+                      "sha256":  "DC60169893FE28DF75DDCD5EFB2CCF4510ECAB79B688E915E7BE10074189D129"
+                  },
+                  {
+                      "path":  "screenshots/credential-conflict-minimum.png",
+                      "bytes":  36091,
+                      "sha256":  "69C3E530CCF3D496E3945D7787519A7C989AA7348D57A370A2B1B08F6CDEF60C"
+                  },
+                  {
+                      "path":  "screenshots/credentials-help.png",
+                      "bytes":  49219,
+                      "sha256":  "1807EA5179E08C7C0D9C3A2AC761A2DCCD0F24EDB85501F594C2F3EB1D3234A6"
+                  },
+                  {
+                      "path":  "screenshots/main.png",
+                      "bytes":  63403,
+                      "sha256":  "53D3992CDBFD19394CB7DC38C284B4BFC92A0F41F3B9A388D3DE64250F9AEE32"
+                  },
+                  {
+                      "path":  "screenshots/main-icons-row-16.png",
+                      "bytes":  45372,
+                      "sha256":  "0D4785725610997BDC287692979DBB28FF4924595C84165817411B44D7F6DE64"
+                  },
+                  {
+                      "path":  "screenshots/main-icons-row-48.png",
+                      "bytes":  77237,
+                      "sha256":  "ABD6008638EFE8CB9F3E3F6D2731574CCE84D4FC843D95A3484DF81A48E30A8C"
+                  },
+                  {
+                      "path":  "screenshots/main-icons-scaled.png",
+                      "bytes":  116881,
+                      "sha256":  "3F872E5E1FDDDE746D78B34565221847065FD55BB0C1B6A7F1F795756EFC7DF2"
+                  },
+                  {
+                      "path":  "screenshots/mapping-access-denied.png",
+                      "bytes":  24253,
+                      "sha256":  "36226FAD5F4956E5DC56E3B7744FBEBB847D4F6E677BF2F7D4E1C9A633D7A5B7"
+                  },
+                  {
+                      "path":  "screenshots/mapping-anonymous.png",
+                      "bytes":  19632,
+                      "sha256":  "1484966B56B495A2898E63773E12143CBED866BF2D885CD5C3F92FCFAF53E79E"
+                  },
+                  {
+                      "path":  "screenshots/mapping-credentials.png",
+                      "bytes":  20095,
+                      "sha256":  "DA91837B8544C64760B50DB272F69CBEDBB8867F9B4A10EE1CF378FB73F2C751"
+                  },
+                  {
+                      "path":  "screenshots/mapping-new-drive.png",
+                      "bytes":  19786,
+                      "sha256":  "B473CD1369B294FD349868A9D80C5D4D90A509ACDD8702AC9E06C2B17920B3C1"
+                  },
+                  {
+                      "path":  "SPECIFICATION.md",
+                      "bytes":  8949,
+                      "sha256":  "D2F36A1F528C39CC5B5FDBA0A6C917D78773F9A08CD0A2D76A9B5E775D67B5F6"
+                  },
+                  {
+                      "path":  "START_HERE.md",
+                      "bytes":  4550,
+                      "sha256":  "6C7C2CC33C7F160C384E099E2984CDF4B4A9822A622370101A44AC8A690C5983"
+                  },
+                  {
+                      "path":  "STRINGS.md",
+                      "bytes":  7742,
+                      "sha256":  "960522A96502C55ABE318AC8D4E9B62C2AEC00282CE23B78EF8584E189F70A26"
+                  },
+                  {
+                      "path":  "UI.md",
+                      "bytes":  7680,
+                      "sha256":  "722BB579747B20B23A0AE4623FB4F895DA0A3501881F9FFDED482661E1D8848C"
+                  },
+                  {
+                      "path":  "Validate-Package.ps1",
+                      "bytes":  8088,
+                      "sha256":  "7FC9B437E24C027C994D9F96053DA67D434A88B0C980126102E56CD775F726B9"
+                  },
+                  {
+                      "path":  "VALIDATION.md",
+                      "bytes":  1878,
+                      "sha256":  "8FCE96ECB579DDB26C50ED730570C529A1A07351208B94E15246582375744739"
+                  },
+                  {
+                      "path":  "WINDOWS-INTEGRATION.md",
+                      "bytes":  9962,
+                      "sha256":  "D839406673C1994CDBC92B929B7460B6BCDE194C3A976AADDED90B1207E2DE59"
+                  }
+              ]
+}

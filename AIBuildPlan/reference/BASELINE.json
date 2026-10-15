@@ -1,0 +1,11 @@
+﻿{
+    "application":  "NetworkDriveRemapper",
+    "sourceCommit":  "4cad088acd05d4b2206042c7ee7b526868f3d6c2",
+    "formatVersion":  1,
+    "capturedUtc":  "2026-10-15T09:36:41.0161168Z",
+    "regressionChecks":  33,
+    "productionCodeChanged":  false,
+    "sourceArchive":  "reference/Source-baseline.zip",
+    "sourceArchiveIncludesGitHistory":  false,
+    "referenceMode":  "Committed source at sourceCommit; no build outputs or real user credentials."
+}

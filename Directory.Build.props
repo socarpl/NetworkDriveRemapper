@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Deterministic>true</Deterministic>
+    <MSBuildEnableWorkloadResolver>false</MSBuildEnableWorkloadResolver>
+  </PropertyGroup>
+</Project>

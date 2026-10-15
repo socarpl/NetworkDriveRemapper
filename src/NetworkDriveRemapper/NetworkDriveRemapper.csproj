@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>../../assets/app-icon/NetworkDriveRemapper.ico</ApplicationIcon>
+    <AssemblyName>NetworkDriveRemapper</AssemblyName>
+    <Product>NetworkDriveRemapper</Product>
+    <Description>Inspect and remap Windows network drive letters.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NetworkDriveRemapper.Core/NetworkDriveRemapper.Core.csproj" />
+    <EmbeddedResource Include="../../assets/app-icon/NetworkDriveRemapper.ico" LogicalName="NetworkDriveRemapper.Icons.Application.ico" Link="Assets/NetworkDriveRemapper.ico" />
+    <EmbeddedResource Include="../../icon_edit2.png" LogicalName="NetworkDriveRemapper.Icons.icon_edit2.png" />
+    <EmbeddedResource Include="../../icon_remove.png" LogicalName="NetworkDriveRemapper.Icons.icon_remove.png" />
+    <EmbeddedResource Include="../../icon_open.png" LogicalName="NetworkDriveRemapper.Icons.icon_open.png" />
+    <EmbeddedResource Include="../../icon_refresh.png" LogicalName="NetworkDriveRemapper.Icons.icon_refresh.png" />
+  </ItemGroup>
+</Project>

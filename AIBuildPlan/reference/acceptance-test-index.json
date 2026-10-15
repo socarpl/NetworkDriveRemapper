@@ -1,0 +1,134 @@
+﻿[
+    {
+        "name":  "UNC normalization and share root",
+        "entry":  "PathNormalization"
+    },
+    {
+        "name":  "Malformed paths are rejected",
+        "entry":  "InvalidPaths"
+    },
+    {
+        "name":  "Anonymous and explicit credential handling",
+        "entry":  "CredentialHandling"
+    },
+    {
+        "name":  "All 26 letters and available-only filtering",
+        "entry":  "InventoryAndFilter"
+    },
+    {
+        "name":  "Free letter maps with supplied credentials",
+        "entry":  "MapFreeLetter"
+    },
+    {
+        "name":  "Existing mapping is replaced in the correct order",
+        "entry":  "ReplaceMapping"
+    },
+    {
+        "name":  "Mapping removal targets one unchanged drive and preserves reserved, changed, or in-use letters",
+        "entry":  "RemoveMapping"
+    },
+    {
+        "name":  "Only native error 2401 offers force removal with the original error and work-loss warning",
+        "entry":  "ForceRemovalDetection"
+    },
+    {
+        "name":  "Removal confirmation handles Yes, No, retry failure, unrelated errors, and ownership changes",
+        "entry":  "ForceRemovalWorkflow"
+    },
+    {
+        "name":  "Same target still applies the newly supplied login",
+        "entry":  "ReplaceSameTarget"
+    },
+    {
+        "name":  "Invalid target preserves the old mapping",
+        "entry":  "FailedPreflight"
+    },
+    {
+        "name":  "Open-file failure prevents replacement",
+        "entry":  "FailedUnmap"
+    },
+    {
+        "name":  "Failed replacement restores the old mapping",
+        "entry":  "SuccessfulRollback"
+    },
+    {
+        "name":  "Failed rollback reports both failures",
+        "entry":  "FailedRollback"
+    },
+    {
+        "name":  "Failed free mapping does not try restoration",
+        "entry":  "FailedFreeMapping"
+    },
+    {
+        "name":  "Stale dialog never changes the letter",
+        "entry":  "StaleSnapshot"
+    },
+    {
+        "name":  "Ownership is rechecked after network preflight",
+        "entry":  "ConcurrentChange"
+    },
+    {
+        "name":  "Local and unknown network letters cannot be edited",
+        "entry":  "ReservedLetters"
+    },
+    {
+        "name":  "Windows inventory smoke check is read-only",
+        "entry":  "NativeInventory"
+    },
+    {
+        "name":  "Dialog defaults, login controls, test, browse, cancel",
+        "entry":  "DialogControls"
+    },
+    {
+        "name":  "OK maps and honors both Explorer checkbox values",
+        "entry":  "DialogMapping"
+    },
+    {
+        "name":  "Access-denied help, exact explanation, modal ownership, and documentation links",
+        "entry":  "() =\u003e CredentialsHelpAndRender(args)"
+    },
+    {
+        "name":  "1219 detection and password-free existing-session options",
+        "entry":  "ConflictOptions"
+    },
+    {
+        "name":  "Confirmed server drop leaves other servers intact",
+        "entry":  "ServerScopedDisconnect"
+    },
+    {
+        "name":  "Incomplete, changed, or cross-server lists are never dropped",
+        "entry":  "DisconnectGuards"
+    },
+    {
+        "name":  "Partial disconnect failure stops before mapping",
+        "entry":  "DisconnectFailure"
+    },
+    {
+        "name":  "Retry snapshots protect newly assigned drive letters",
+        "entry":  "RetryOwnership"
+    },
+    {
+        "name":  "Native connection listing works without changing mappings",
+        "entry":  "NativeServerConnections"
+    },
+    {
+        "name":  "Conflict review preserves the error and confirms destructive choices",
+        "entry":  "() =\u003e ConflictReviewControls(args)"
+    },
+    {
+        "name":  "Mapping and testing recover 1219 through all three choices",
+        "entry":  "ConflictRecoveryWorkflow"
+    },
+    {
+        "name":  "Row icon conditions, click actions, refresh, and exact dynamic scaling",
+        "entry":  "() =\u003e MainRowActionsAndScaling(args)"
+    },
+    {
+        "name":  "Main grid keeps rows, selection, scrolling, and appearance stable across actions",
+        "entry":  "MainRefreshStability"
+    },
+    {
+        "name":  "Main grid filtering and window render",
+        "entry":  "() =\u003e MainGridAndRender(args)"
+    }
+]

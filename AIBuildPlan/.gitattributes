@@ -1,0 +1,2 @@
+# Preserve package bytes so manifest hashes survive Git checkout on Windows and other systems.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
